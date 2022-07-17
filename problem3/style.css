@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@200;300&display=swap");
+:root {
+    --font1: "Kanit", sans-serif;
+}
+
+.font1 {
+    font-family: var(--font1);
+    font-weight: bolder;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-head {
+    background: rgb(7, 0, 36);
+    background: linear-gradient(273deg, rgba(7, 0, 36, 0.9654236694677871) 0%, rgba(18, 67, 213, 1) 0%, rgba(63, 23, 214, 0.5340511204481793) 100%);
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    align-items: center;
+    border-radius: 7px 7px 0 0;
+}
+
+.whole-container {}
+
+.container {
+    width: 800px;
+    height: 500px;
+    display: flex;
+    border: 2px solid rgba(0, 0, 0, 0.255);
+    border-top: none;
+    border-radius: 0 0 7px 7px;
+}
+
+.left-part {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    border-right: 2px solid rgba(0, 0, 0, 0.255);
+    border-top: 0;
+}
+
+.input-fields header {
+    font-size: 25px;
+}
+
+.input-fields label {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+
+.input-fields {
+    position: relative;
+    align-self: center;
+    box-sizing: border-box;
+}
+
+input {
+    box-sizing: border-box;
+    z-index: 10;
+    font-family: FontAwesome;
+    padding: 8px;
+    border-radius: 7px;
+    border: 1px solid rgba(0, 0, 0, 0.318);
+    outline: 0;
+    font-size: 15px;
+    opacity: 0.9;
+}
+
+input:focus {
+    background-color: rgba(0, 0, 0, 0.083);
+    border-color: rgba(0, 0, 255, 0.69);
+}
+
+#file {
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 31px;
+    opacity: 0.8;
+}
+
+.file {
+    margin-left: 39px;
+}
+
+.g-btn {
+    margin-left: 60px;
+}
+
+.g-btn button {
+    margin-left: 3px;
+    padding: 9px;
+    margin-top: 20px;
+    background-color: rgba(0, 0, 255, 0.596);
+    color: white;
+    border-radius: 7px;
+    border: 1px solid rgba(0, 0, 0, 0.318);
+}
+
+.g-btn button:hover {
+    background-color: rgba(0, 0, 255, 0.69);
+}
+
+.g-btn button:focus {
+    box-shadow: inset -12px -22px 19px -3px rgba(0, 0, 0, 0.49);
+}
+
+.right-part {
+    width: 400px;
+    border-top: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container2 {
+    background-color: rgba(0, 0, 0, 0.037);
+    width: 350px;
+    height: 170px;
+    border: 1px solid rgba(0, 0, 0, 0.084);
+    border-radius: 7px;
+    display: flex;
+    box-shadow: 6px 4px 11px 5px rgba(0, 0, 0, 0.1);
+}
+
+.result header {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+    font-size: 28px;
+}
+
+.img-part {
+    width: 30%;
+    background: linear-gradient(to top, #4047f0, #8f94fb);
+    border-radius: 7px 0 0 7px;
+    border-right: 1px solid rgba(0, 0, 0, 0.318);
+}
+
+.img-part {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.displayed-img img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50px;
+}
+
+.values {
+    padding-left: 10px;
+    /* align-items: center; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.values h4 {
+    color: rgba(0, 0, 0, 0.38);
+    margin: 0;
+    padding-top: 5px;
+    font-size: 15px;
+}
+
+.values h4>span {
+    color: black;
+    text-transform: capitalize;
+    justify-content: center;
+    align-items: center;
+}

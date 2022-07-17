@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+:root {
+    --font1: "Poppins", sans-serif;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.font1 {
+    font-family: var(--font1);
+}
+
+.container {
+    border: 2px solid white;
+    background-color: black;
+    width: 800px;
+    box-shadow: 34px 24px 55px 9px rgba(255, 255, 255, 0.116);
+    color: white;
+    border-radius: 0px 20px;
+    text-shadow: rgba(113, 84, 244, 0.554) 5px 1px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    font-size: 30px;
+}
+
+.time-container {
+    display: flex;
+    justify-content: center;
+    font-size: 100px;
+}
+
+.date-container {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+}
+
+.btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: end;
+    padding-bottom: 50px;
+}
+
+.start-btn button {
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 18px 30px;
+    margin-right: 25px;
+    border-radius: 8px;
+    border-left: 1px solid rgba(255, 255, 255, 0.538);
+    border-top: 1px solid rgba(255, 255, 255, 0.538);
+    color: white;
+    border-right: 3px solid white;
+    border-bottom: 3px solid white;
+    border-bottom-color: rgb(255, 255, 255);
+    text-shadow: rgba(47, 0, 255, 0.554) 3px 1px;
+    background-color: black;
+}
+
+.stop-btn button {
+    font-size: 1rem;
+    font-weight: bold;
+    border-left: 1px solid rgba(255, 255, 255, 0.538);
+    border-top: 1px solid rgba(255, 255, 255, 0.538);
+    background-color: black;
+    color: white;
+    padding: 18px 30px;
+    border-right: 3px solid white;
+    /* border: 1px solid white; */
+    border-bottom: 3px solid white;
+    border-radius: 8px;
+    text-shadow: rgba(47, 0, 255, 0.554) 3px 1px;
+}
+
+button:focus {
+    border-left: 3px solid white;
+    border-top: 3px solid white;
+    border-right: 1px solid rgba(255, 255, 255, 0.538);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.538);
+}

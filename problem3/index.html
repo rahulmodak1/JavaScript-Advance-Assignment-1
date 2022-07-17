@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Id_Card Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+
+<body>
+    <div class="whole-container">
+        <div class="nav-head">
+            <h1>ID Card Generator</h1>
+        </div>
+        <div class="container font1">
+
+            <div class="left-part">
+
+                <div class="input-fields">
+                    <header>Enter Student Details</header>
+                    <label for="Name">Enter Name:</label>
+                    <input type="text" name="" id="name" placeholder="&#xf007">
+                </div>
+                <div class="input-fields">
+                    <label for="clg-name">Enter College Name:</label>
+
+
+                    <input type="text" name="" id="clg-name" placeholder="&#xf19c">
+                </div>
+                <div class="input-fields">
+                    <label for="location">Enter Location:</label>
+                    <input type="text" name="" id="location" placeholder="&#xf2b9">
+                </div>
+                <div class="input-fields file-field">
+                    <label for="file" class="file">Enter Student's Picture</label>
+                    <input type="file" name="" id="file" accept="image/*" onchange="loadImage(event)">
+                </div>
+                <div class="g-btn">
+                    <button id="generateCard" onclick="generateCard()">Generate Card</button>
+
+                </div>
+
+            </div>
+            <div class="right-part">
+
+                <div class="result">
+                    <header>Generated ID Card</header>
+                    <div class="container2">
+                        <div class="img-part">
+                            <div class="displayed-img">
+                                <img src="computer.jpg" alt="" id="displayedImg">
+                            </div>
+
+                        </div>
+                        <div class="values">
+
+                            <h4>Name:
+                                <Span id="Name"></Span>
+                            </h4>
+                            <h4>College Name:
+                                <Span id="ClgName"></Span>
+                            </h4>
+                            <h4>Location:
+                                <Span id="Location"></Span>
+                            </h4>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>

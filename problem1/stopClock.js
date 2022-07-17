@@ -1,0 +1,3 @@
+function stopClock() {
+    clearInterval(timeGun);
+}
